@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "WebSnap",
+    "version": "1.1",
+    "description": "Simple button to take snapshot of opened urls in all tabs.",
+    "icons": {
+      "48": "icons/app-icon.png",
+    },
+  
+    "permissions": [
+      "tabs"
+    ],
+  
+    "browser_action": {
+      "default_icon": "icons/default-38.png",
+      "default_title": "Take SnapShot"
+    },
+  
+    "background": {
+      "scripts": ["background.js"]
+    }
+  
+  }
