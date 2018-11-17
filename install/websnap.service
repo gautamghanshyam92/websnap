@@ -1,0 +1,12 @@
+[Unit]
+Description=WebSnap - Snapshot of opened urls.
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/websnap/websnap.py
+Restart=always
+RestartSec=60
+StartLimitInterval=400
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
