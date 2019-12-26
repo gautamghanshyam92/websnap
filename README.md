@@ -1,5 +1,5 @@
 # WebSnap - Takes Snapshot of opened urls
 
 # Install
-  $ cd ./install
+  $ cd ./install<br/>
   $ sudo ./install.sh
